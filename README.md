@@ -1,4 +1,4 @@
-# MonitoreoNagios
+# HAproxy_cargas
 ## Installation
 1. Primeros vamos a crear las maquinas, nos demoraremos 30 - 45 min en montar las maquinas.
 
