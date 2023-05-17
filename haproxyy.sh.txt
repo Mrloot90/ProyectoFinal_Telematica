@@ -1,0 +1,3 @@
+Sudo yum install vim  
+
+Sudo yum install haproxy 

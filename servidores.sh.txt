@@ -1,0 +1,16 @@
+Sudo yum install -y vim  
+
+Sudo yum install -y httpd  
+
+Sudo yum install -y bind-utils bind-libs bind-* 
+
+Sudo yum install -y net-tools 
+
+
+cat <<TEST> /etc/selinux/config
+SELINUX=disabled
+SELINUXTYPE=targeted
+TEST
+
+
+sudo service firewalld stop
